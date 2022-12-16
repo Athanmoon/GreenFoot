@@ -1,5 +1,0 @@
-package Ajedrez;
-
-public enum PiezasNegras {
-
-}

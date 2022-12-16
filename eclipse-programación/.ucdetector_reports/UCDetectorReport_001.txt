@@ -1,9 +1,0 @@
-Created with UCDetector 2.0.0	2022-10-14 09:50:25	http://www.ucdetector.org/	Created by class: org.ucdetector.report.TextReport	
-Location	Description	Java	Marker	Author
-DNI_NIF.DNI_NIF.<init>(DNI_NIF.java:5)	Class "DNI_NIF" has 0 references	DNI_NIF	org.ucdetector.analyzeMarkerReference	
-Palindromo_y_capicua.Palindromo.<init>(Palindromo.java:3)	Class "Palindromo" has 0 references	Palindromo	org.ucdetector.analyzeMarkerReference	
-Palindromo_y_capicua.Capicua.<init>(Capicua.java:3)	Class "Capicua" has 0 references	Capicua	org.ucdetector.analyzeMarkerReference	
-Piedra_papel_tijeras.Piedra_papel_tijeras.<init>(Piedra_papel_tijeras.java:4)	Class "Piedra_papel_tijeras" has 0 references	Piedra_papel_tijeras	org.ucdetector.analyzeMarkerReference	
-Random.Random.<init>(Random.java:5)	Class "Random" has 0 references	Random	org.ucdetector.analyzeMarkerReference	
-Sutilezas_del_lenguaje_java.Sutilezas_lenguaje_java.<init>(Sutilezas_lenguaje_java.java:3)	Class "Sutilezas_lenguaje_java" has 0 references	Sutilezas_lenguaje_java	org.ucdetector.analyzeMarkerReference	
-año_bisiesto.Bisiesto.<init>(Bisiesto.java:3)	Class "Bisiesto" has 0 references	Bisiesto	org.ucdetector.analyzeMarkerReference	

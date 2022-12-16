@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+/home/eliane/eclipse-programación/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-990302300.index
-2821331234.index
-3973569116.index
