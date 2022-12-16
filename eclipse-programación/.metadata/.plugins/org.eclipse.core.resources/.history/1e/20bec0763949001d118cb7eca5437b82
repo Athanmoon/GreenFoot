@@ -1,0 +1,18 @@
+package Palindromo_y_capicua;
+import java.util.Scanner;
+public class Palindromo {
+	public static void main(Scanner entrada) {
+		Scanner entrada1= new Scanner(System.in);
+		System.out.println (Palindromo(entrada1));
+	}//main	
+public static boolean Palindromo(Scanner entrada) {
+	int i=0;
+	int j;
+	for (i=0, j=entrada.length-1;i>=j;i++,j--) {
+		if(entrada.charAt(i!= entrada.charAt(j))) {
+			return false;
+			}//if
+		}//for
+	return true;
+	}//boolean
+}//class

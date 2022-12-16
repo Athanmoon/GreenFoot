@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.2" sequence="4" timestamp="1666095190541" analysisTimestamp="1666095188610" release="">
+  <Project projectName="Programacion">
+    <Jar>/home/eliane/eclipse-programación/Programacion/bin/Final_t2/SinEspacios.class</Jar>
+    <AuxClasspathEntry>/home/eliane/eclipse-programación/Programacion/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/eliane/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20220903-1038/jre/lib/jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>/home/eliane/eclipse-programación/Programacion/src</SrcDir>
+  </Project>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="4">
+    <Class classname="Final_t2.SinEspacios">
+      <SourceLine classname="Final_t2.SinEspacios" sourcefile="SinEspacios.java" sourcepath="Final_t2/SinEspacios.java"/>
+    </Class>
+    <Method classname="Final_t2.SinEspacios" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Final_t2.SinEspacios" start="10" end="13" startBytecode="0" endBytecode="95" sourcefile="SinEspacios.java" sourcepath="Final_t2/SinEspacios.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="Final_t2.SinEspacios" start="10" end="10" startBytecode="7" endBytecode="7" sourcefile="SinEspacios.java" sourcepath="Final_t2/SinEspacios.java"/>
+    <SourceLine classname="Final_t2.SinEspacios" start="10" end="10" startBytecode="7" endBytecode="7" sourcefile="SinEspacios.java" sourcepath="Final_t2/SinEspacios.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="2">
+    <Class classname="Piedra_papel_tijeras.Piedra_papel_tijeras">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Class>
+    <Method classname="Piedra_papel_tijeras.Piedra_papel_tijeras" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="7" end="60" startBytecode="0" endBytecode="435" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="7" end="7" startBytecode="7" endBytecode="7" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="7" end="7" startBytecode="7" endBytecode="7" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="2">
+    <Class classname="Piedra_papel_tijeras.Piedra_papel_tijeras">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Class>
+    <Method classname="Piedra_papel_tijeras.Piedra_papel_tijeras" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="7" end="60" startBytecode="0" endBytecode="435" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Method>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="12" end="12" startBytecode="44" endBytecode="44" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="12" end="12" startBytecode="44" endBytecode="44" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="2">
+    <Class classname="Piedra_papel_tijeras.Piedra_papel_tijeras">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Class>
+    <Method classname="Piedra_papel_tijeras.Piedra_papel_tijeras" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="7" end="60" startBytecode="0" endBytecode="435" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Method>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="15" end="15" startBytecode="192" endBytecode="192" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    <LocalVariable name="jugador" register="2" pc="192" role="LOCAL_VARIABLE_NAMED"/>
+  </BugInstance>
+  <BugInstance type="UC_USELESS_CONDITION" priority="1" rank="14" abbrev="UC" category="STYLE" first="2">
+    <Class classname="Piedra_papel_tijeras.Piedra_papel_tijeras">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Class>
+    <Method classname="Piedra_papel_tijeras.Piedra_papel_tijeras" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="7" end="60" startBytecode="0" endBytecode="435" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    </Method>
+    <String value="jugador != 4"/>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="56" end="56" startBytecode="195" endBytecode="195" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java" role="SOURCE_UNREACHABLE_CODE"/>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="15" end="15" startBytecode="192" endBytecode="192" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+    <SourceLine classname="Piedra_papel_tijeras.Piedra_papel_tijeras" start="15" end="15" startBytecode="192" endBytecode="192" sourcefile="Piedra_papel_tijeras.java" sourcepath="Piedra_papel_tijeras/Piedra_papel_tijeras.java"/>
+  </BugInstance>
+  <BugInstance type="DM_DEFAULT_ENCODING" priority="1" rank="19" abbrev="Dm" category="I18N" first="1">
+    <Class classname="Random.Random">
+      <SourceLine classname="Random.Random" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    </Class>
+    <Method classname="Random.Random" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Random.Random" start="7" end="27" startBytecode="0" endBytecode="338" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    </Method>
+    <Method classname="java.util.Scanner" name="&lt;init&gt;" signature="(Ljava/io/InputStream;)V" isStatic="false" role="METHOD_CALLED">
+      <SourceLine classname="java.util.Scanner" start="566" end="567" startBytecode="0" endBytecode="71" sourcefile="Scanner.java" sourcepath="java/util/Scanner.java"/>
+    </Method>
+    <SourceLine classname="Random.Random" start="9" end="9" startBytecode="26" endBytecode="26" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    <SourceLine classname="Random.Random" start="9" end="9" startBytecode="26" endBytecode="26" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+  </BugInstance>
+  <BugInstance type="DM_NEXTINT_VIA_NEXTDOUBLE" priority="2" rank="18" abbrev="Dm" category="PERFORMANCE" first="1">
+    <Class classname="Random.Random">
+      <SourceLine classname="Random.Random" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    </Class>
+    <Method classname="Random.Random" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Random.Random" start="7" end="27" startBytecode="0" endBytecode="338" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    </Method>
+    <SourceLine classname="Random.Random" start="7" end="7" startBytecode="7" endBytecode="7" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    <SourceLine classname="Random.Random" start="7" end="7" startBytecode="7" endBytecode="7" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="1">
+    <Class classname="Random.Random">
+      <SourceLine classname="Random.Random" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    </Class>
+    <Method classname="Random.Random" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Random.Random" start="7" end="27" startBytecode="0" endBytecode="338" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    </Method>
+    <SourceLine classname="Random.Random" start="14" end="14" startBytecode="110" endBytecode="110" sourcefile="Random.java" sourcepath="Random/Random.java"/>
+    <LocalVariable name="num" register="1" pc="110" role="LOCAL_VARIABLE_NAMED"/>
+    <LocalVariable name="s" register="3" pc="110" role="LOCAL_VARIABLE_NAMED"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Tue, 18 Oct 2022 14:10:59 +0200" total_classes="1" referenced_classes="17" total_bugs="8" total_size="10" num_packages="3" java_version="17.0.4.1" vm_version="17.0.4.1+1" cpu_seconds="9.49" clock_seconds="1.95" peak_mbytes="530.78" alloc_mbytes="2048.00" gc_seconds="0.07" priority_2="2" priority_1="6">
+    <PackageStats package="Final_t2" total_bugs="1" total_types="1" total_size="10" priority_1="1">
+      <ClassStats class="Final_t2.SinEspacios" sourceFile="SinEspacios.java" interface="false" size="10" bugs="1" priority_1="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="615" invocations="2" avgMicrosecondsPerInvocation="307822" maxMicrosecondsPerInvocation="421874" standardDeviationMicrosecondsPerInvocation="114052"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="464" invocations="418" avgMicrosecondsPerInvocation="1110" maxMicrosecondsPerInvocation="28635" standardDeviationMicrosecondsPerInvocation="2652"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="130" invocations="419" avgMicrosecondsPerInvocation="311" maxMicrosecondsPerInvocation="19170" standardDeviationMicrosecondsPerInvocation="949"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="94" invocations="17" avgMicrosecondsPerInvocation="5571" maxMicrosecondsPerInvocation="28126" standardDeviationMicrosecondsPerInvocation="8417"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="62" invocations="86" avgMicrosecondsPerInvocation="722" maxMicrosecondsPerInvocation="5676" standardDeviationMicrosecondsPerInvocation="923"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="59" invocations="17" avgMicrosecondsPerInvocation="3520" maxMicrosecondsPerInvocation="22194" standardDeviationMicrosecondsPerInvocation="5320"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1665734384320" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1665734384322" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1665735008169" release="" codeSize="36" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1665989341824" release="" codeSize="3" numClasses="1"/>
+  </History>
+</BugCollection>

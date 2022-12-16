@@ -1,0 +1,8 @@
+package uT4Diciembre;
+
+public class HLFPOO {
+	public int n= 5;
+}
+public class Tablero{
+	public char[][] tablero=new char[n][n];
+}
